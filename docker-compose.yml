@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+
+  api:
+    container_name: chocolate-api
+    restart: always
+    build: ./api
+    expose:
+      - "5000"
+    command: gunicorn -w 1 -b :5000 estimationService:app --limit-request-line 8192
+
+  nginx:
+    container_name: chocolate-nginx
+    restart: always
+    build: ./nginx
+    ports:
+      - "80:80"
+    depends_on:
+      - api
