@@ -157,6 +157,8 @@ class BuildEstimator:
         file.close()
 
 if __name__ == '__main__':
-
-    BuildEstimator.createBlindTestSamples()
-    BuildEstimator.createModel()
+    for x in range(6):
+        BuildEstimator.createBlindTestSamples()
+        BuildEstimator.createModel()
+    
+    
