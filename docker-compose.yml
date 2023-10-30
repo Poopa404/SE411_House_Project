@@ -3,7 +3,7 @@ version: '3'
 services:
 
   api:
-    container_name: chocolate-api
+    container_name: house-api
     restart: always
     build: ./api
     expose:
@@ -11,7 +11,7 @@ services:
     command: gunicorn -w 1 -b :5000 estimationService:app --limit-request-line 8192
 
   nginx:
-    container_name: chocolate-nginx
+    container_name: house-nginx
     restart: always
     build: ./nginx
     ports:

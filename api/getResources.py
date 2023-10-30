@@ -5,7 +5,7 @@ class GetResources:
 
 	@staticmethod
 	def getModel():
-		model_file = 'model/flavors_of_cacao.pickle'
+		model_file = 'model/house.pickle'
 		file = open(model_file, 'rb')
 		model = pickle.load(file)
 		file.close()

@@ -1,0 +1,35 @@
+fit mse = 1438293767.42, test mse = 1793828417.29
+fit rmse = 37924.84, test rmse = 42353.61
+
+fit mse = 1350097500.64, test mse = 1926416850.94
+fit rmse = 36743.67, test rmse = 43890.97
+
+fit mse = 1065862024.35, test mse = 5452222737.89
+fit rmse = 32647.54, test rmse = 73839.17
+
+fit mse = 689112744.95, test mse = 10494647577.88
+fit rmse = 26250.96, test rmse = 102443.39
+
+fit mse = 1684630998.30, test mse = 1095845407.01
+fit rmse = 41044.26, test rmse = 33103.56
+
+fit mse = 1369636874.09, test mse = 2233223970.63
+fit rmse = 37008.61, test rmse = 47257.00
+
+fit mse = 1730752388.05, test mse = 997975566.56
+fit rmse = 41602.31, test rmse = 31590.75
+
+fit mse = 1471801778.94, test mse = 2109093696.53
+fit rmse = 38364.07, test rmse = 45924.87
+
+fit mse = 897918513.31, test mse = 4077132778.88
+fit rmse = 29965.29, test rmse = 63852.43
+
+fit mse = 1359696405.58, test mse = 2069274239.77
+fit rmse = 36874.06, test rmse = 45489.28
+
+fit mse = 35840870.30, test mse = 1382889356.21
+fit rmse = 5986.72, test rmse = 37187.22
+
+fit mse = 1269459840.85, test mse = 2371808880.81
+fit rmse = 35629.48, test rmse = 48701.22
